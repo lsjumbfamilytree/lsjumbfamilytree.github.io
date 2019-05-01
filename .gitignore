@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+.DS_Store
+dist
+toDo.txt
+
+#IntelliJ
+.idea/
+*.iml
+atlassian-ide-plugin.xml
+*.ipr
+*.iws
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

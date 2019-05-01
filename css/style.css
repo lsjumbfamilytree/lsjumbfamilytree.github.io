@@ -1,0 +1,128 @@
+ path.link {
+     fill: none;
+     stroke: #333;
+     stroke-width: 2.0px;
+ }
+
+ .connector{
+   visibility: hidden;
+ }
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.content{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+ .nodeShape {
+     stroke: #fff;
+     stroke-width: 1.5px;
+ }
+
+ .starter{
+   fill: #00ff00;
+ }
+
+ .or{
+   fill: #ff00ff;
+ }
+
+ .optional{
+     /*fill: #ff0000;*/
+     fill: #ffff00;
+ }
+
+ .corequisite{
+     fill: #00ffff;
+ }
+
+ .noType, .lister{
+   /*fill: #bd2031;*/
+   fill: #ccc;
+ }
+
+ .invisible{
+   visibility: hidden;
+ }
+
+ text {
+   /*fill: #eeefff;*/
+     fill: #000;
+     font: 10px sans-serif;
+     pointer-events: none;
+     text-anchor: middle;
+ }
+
+ .axis line {
+     fill: none;
+     stroke: #ddd;
+     shape-rendering: crispEdges;
+     vector-effect: non-scaling-stroke;
+}
+
+ .nodeTip, .linkTip{
+     z-index: 10;
+     opacity: 0.0;
+     background: rgba(255, 255, 255, 0.85);
+ }
+
+ .toolbar{
+     position: fixed;
+     top: 0;
+     margin-top: 1%;
+     z-index: 1;
+ }
+
+ .key{
+     position: fixed;
+     margin-top: 1%;
+     top: 2%;
+     background-color: white;
+     z-index: 1;
+ }
+
+.firstLine{
+    padding-top: 10px;
+}
+
+#frontpageimage{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+
+#none{
+    margin-left: 0px;
+}
+
+#searchbar{
+    width: 18em;
+}
+
+#cyan{
+    color: #00ffff;
+}
+
+ #green{
+     color: #00ff00;
+ }
+
+ #purple{
+     color: #ff00ff;
+ }
+
+ #yellow{
+     color: #ffff00;
+     font-weight: bold;
+ }
+
+ #gray{
+    color: #ccc;
+ }
